@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = 'My Astro Learning Blog'
 ---
 
 <html>
@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="my astro site" />
-    <title>Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/astro-tutorial/">Home</a>
     <a href="/astro-tutorial/about/">About</a>
     <a href="/astro-tutorial/blog/">Blog</a>
 
-    <h1>My Astro Learning Blog</h1>
+    <h1>{pageTitle}</h1>
     <p>This is where I will post about my journey learning Astro.</p>
 
     <ul>
